@@ -1,10 +1,3 @@
-# Códigos-em-Portugol - Feitos por mim (para estudo)
-
-## FASE 1 - Escreval, leia e contas (somente)
-<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-red">
-
-### 1-) Mostrar "Olá mundo".
-
 ```portugol
 Algoritmo "Olá mundo"
 
@@ -15,7 +8,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 2-) Pedir nome e idade e mostrar na tela.
 
 ```portugol
 Algoritmo "Nome e idade"
@@ -37,7 +29,6 @@ Fimalgoritmo
 
 ```
 
-### 3-) Pedir idade e mostrar ela.
 
 ```portugol
 Algoritmo "Idade"
@@ -53,7 +44,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 4-) Pedir número e mostrar o dobro.
 
 ```portugol
 Algoritmo "Dobro"
@@ -71,7 +61,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 5-) Pedir número e mostrar o triplo.
 
 ```portugol
 Algoritmo "Triplo"
@@ -89,10 +78,6 @@ Inicio
 Fimalgoritmo
 ```
 
-## FASE 2 - Soma, subtração, multiplicação e divisão
-<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-blue">
-
-### 1-) Somar 2 números.
 
 ```portugol
 Algoritmo "Soma de 2 números"
@@ -113,7 +98,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 2-) Subtrair 2 números.
 
 ```portugol
 Algoritmo "Subtração"
@@ -134,7 +118,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 3-) Multiplicar 2 números.
 
 ```portugol
 Algoritmo "Multiplicação"
@@ -155,7 +138,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 4-) Somar 3 números.
 
 ```portugol
 Algoritmo "Soma de 3 números"
@@ -179,7 +161,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 5-) Fazer média de 2 números.
 
 ```portugol
 Algoritmo "Média de 2 números"
@@ -200,7 +181,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 6-) Dividir 2 números.
 
 ```portugol
 Algoritmo "Divisão"
@@ -221,7 +201,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 7-) Calcular média (usa divisão).
 
 ```portugol
 Algoritmo "Média de 4 números"
@@ -248,7 +227,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 8-) Dividir e mostrar resto (desafio leve).
 
 ```portugol
 Algoritmo "Resto da divisão"
@@ -268,10 +246,6 @@ Inicio
 Fimalgoritmo
 ```
 
-## FASE 3 - SE, SENAO
-<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-green"> 
-
-### 1-) Verificar se número é ímpar.
 
 ```portugol
 Algoritmo "Ímpar ou Par"
@@ -292,7 +266,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 2-) Verificar se o número é par.
 
 ```portugol
 Algoritmo "Ímpar ou Par"
@@ -313,7 +286,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 3-) Pedir 2 números e dizer se ambos são pares.
 
 ```portugol
 Algoritmo "Pares"
@@ -337,7 +309,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 4-) Mostrar se número é positivo ou negativo.
 
 ```portugol
 Algoritmo "Positivo ou Negativo"
@@ -364,7 +335,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 5-) Verificar se número é maior que 10.
 
 ```portugol
 Algoritmo "Maior que 10"
@@ -385,10 +355,6 @@ Inicio
 Fimalgoritmo
 ```
 
-## FASE 4 - ENQUANTO (loop)
-<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-orange"> 
-
-### 1-) Mostrar números de 1 ao 10.
 
 ```portugol
 Algoritmo "1 ao 10"
@@ -406,7 +372,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 2-) Mostrar números de 10 ao 1.
 
 ```portugol
 Algoritmo "10 ao 1"
@@ -424,7 +389,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 3-) Somar números até 5.
 
 ```portugol
 Algoritmo "Somar até 5"
@@ -448,7 +412,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 4-) Pedir número ate digitar 0.
 
 ```portugol
 Algoritmo "Soma até 0"
@@ -473,7 +436,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 5-) Mostrar tabuada simples.
 
 ```portugol
 Algoritmo "Tabuada"
@@ -494,10 +456,6 @@ Inicio
 Fimalgoritmo
 ```
 
-## FASE 5 - PARA (for)
-<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-yellow"> 
-
-### 1-) Mostrar de 1 até 10.
 
 ```portugol
 Algoritmo "1 Até 10"
@@ -512,7 +470,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 2-) Mostrar só pares até 20.
 
 ```portugol
 Algoritmo "Pares até 20"
@@ -527,7 +484,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 3-) Somar números de 1 a 5.
 
 ```portugol
 Algoritmo "1 ao 5"
@@ -546,7 +502,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 4-) Tabuada de um número.
 
 ```portugol
 Algoritmo "Tabuada"
@@ -564,7 +519,6 @@ Inicio
 Fimalgoritmo
 ```
 
-### 5-) Contagem regressiva.
 
 ```portugol
 Algoritmo "Contagem Regressiva"
