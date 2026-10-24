@@ -1,5 +1,7 @@
 # Códigos-em-Portugol  - Feitos por mim (para estudo)
 
+### O arquivo está em (.c) só para reconhecer a linguagem de código!
+
 ## FASE 1 - Escreval, leia e contas (somente)
 <img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-red">
 
