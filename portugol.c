@@ -1,534 +1,575 @@
+### 1-) Mostrar "Olá mundo".
+
 ```portugol
-Algoritmo "Olá mundo"
+algoritmo "Olá mundo"
 
-Inicio
+inicio
 
-    Escreval("Olá mundo")
+    escreval("Olá mundo")
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 2-) Pedir nome e idade e mostrar na tela.
 
 ```portugol
-Algoritmo "Nome e idade"
-Var
+algoritmo "Nome e idade"
+var
     nome: caractere
     idade: inteiro
 
-Inicio
-    Escreval("Digite seu nome: ")
-    Leia(nome)
+inicio
+    escreval("Digite seu nome: ")
+    leia(nome)
     
-    Escreval("Digite sua idade: ")
-    Leia(idade)
+    escreval("Digite sua idade: ")
+    leia(idade)
     
-    Escreval("Seu nome: ", nome)
-    Escreval("Sua idade: ", idade)
+    escreval("Seu nome: ", nome)
+    escreval("Sua idade: ", idade)
     
-Fimalgoritmo
+fimalgoritmo
 
 ```
 
+### 3-) Pedir idade e mostrar ela.
 
 ```portugol
-Algoritmo "Idade"
-Var
+algoritmo "Idade"
+var
     idade: inteiro
 
-Inicio
-    Escreval("Digite sua idade: ")
-    Leia(idade)
+inicio
+    escreval("Digite sua idade: ")
+    leia(idade)
     
-    Escreval("Sua idade: ", idade)
+    escreval("Sua idade: ", idade)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 4-) Pedir número e mostrar o dobro.
 
 ```portugol
-Algoritmo "Dobro"
-Var
+algoritmo "Dobro"
+var
     num: inteiro
 
-Inicio
-    Escreval("Digite um numero: ")
-    Leia(num)
+inicio
+    escreval("Digite um numero: ")
+    leia(num)
     
     num <- num * 2
     
-    Escreval("Resultado: ", num)
+    escreval("Resultado: ", num)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 5-) Pedir número e mostrar o triplo.
 
 ```portugol
-Algoritmo "Triplo"
-Var
+algoritmo "Triplo"
+var
     num: inteiro
 
-Inicio
-    Escreval("Digite um numero: ")
+inicio
+    escreval("Digite um numero: ")
     leia(num)
     
     num <- num * 3
     
-    Escreval("Resultado: ", num)
+    escreval("Resultado: ", num)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+## FASE 2 - Soma, subtração, multiplicação e divisão
+<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-blue">
+
+### 1-) Somar 2 números.
 
 ```portugol
-Algoritmo "Soma de 2 números"
-Var 
+algoritmo "Soma de 2 números"
+var 
     n1, n2, resultado: inteiro
     
-Inicio
-    Escreval("Digite seu primeiro número: ")
-    Leia(n1)
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(n1)
     
-    Escreval("Digite seu segundo número: ")
-    Leia(n2)
+    escreval("Digite seu segundo número: ")
+    leia(n2)
     
     resultado <- n1 + n2
         
-    Escreval("Resultado: ", resultado)
+    escreval("Resultado: ", resultado)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 2-) Subtrair 2 números.
 
 ```portugol
-Algoritmo "Subtração"
-Var 
+algoritmo "Subtração"
+var 
     n1, n2, resultado: inteiro
     
-Inicio
-    Escreval("Digite seu primeiro número: ")
-    Leia(n1)
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(n1)
     
-    Escreval("Digite seu segundo número: ")
-    Leia(n2)
+    escreval("Digite seu segundo número: ")
+    leia(n2)
     
     resultado <- n1 - n2
         
-    Escreval("Resultado: ", resultado)
+    escreval("Resultado: ", resultado)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 3-) Multiplicar 2 números.
 
 ```portugol
-Algoritmo "Multiplicação"
-Var 
+algoritmo "Multiplicação"
+var 
     n1, n2, resultado: inteiro
     
-Inicio
-    Escreval("Digite seu primeiro número: ")
-    Leia(n1)
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(n1)
     
-    Escreval("Digite seu segundo número: ")
-    Leia(n2)
+    escreval("Digite seu segundo número: ")
+    leia(n2)
     
     resultado <- n1 * n2
         
-    Escreval("Resultado: ", resultado)
+    escreval("Resultado: ", resultado)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 4-) Somar 3 números.
 
 ```portugol
-Algoritmo "Soma de 3 números"
-Var 
+algoritmo "Soma de 3 números"
+var 
     n1, n2, n3, resultado: inteiro
     
-Inicio
-    Escreval("Digite seu primeiro número: ")
-    Leia(n1)
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(n1)
     
-    Escreval("Digite seu segundo número: ")
-    Leia(n2)
+    escreval("Digite seu segundo número: ")
+    leia(n2)
 
-    Escreval("Digite seu terceiro número: ")
+    escreval("Digite seu terceiro número: ")
     Leia(n3)
     
     resultado <- n1 + n2 + n3
         
-    Escreval("Resultado: ", resultado)
+    escreval("Resultado: ", resultado)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 5-) Fazer média de 2 números.
 
 ```portugol
-Algoritmo "Média de 2 números"
-Var
+algoritmo "Média de 2 números"
+var
     n1, n2, media: real
 
-Inicio
-    Escreval("Digite seu primeiro número: ")
-    Leia(n1)
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(n1)
 
-    Escreval("Digite seu segundo número: ")  
-    Leia(n2)  
+    escreval("Digite seu segundo número: ")  
+    leia(n2)  
   
     media <- (n1 + n2) / 2  
   
-    Escreval("O resultado da média é: ", media)
+    escreval("O resultado da média é: ", media)
 
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 6-) Dividir 2 números.
 
 ```portugol
-Algoritmo "Divisão"
-Var
+algoritmo "Divisão"
+var
     n1, n2, dividir: real
 
-Inicio
-    Escreval("Digite seu primeiro número: ")
-    Leia(n1)
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(n1)
 
-    Escreval("Digite seu segundo número: ")  
-    Leia(n2)  
+    escreval("Digite seu segundo número: ")  
+    leia(n2)  
   
     dividir <- n1 / n2
   
-    Escreval("O resultado da divisão é: ", dividir)
+    escreval("O resultado da divisão é: ", dividir)
 
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 7-) Calcular média (usa divisão).
 
 ```portugol
-Algoritmo "Média de 4 números"
+algoritmo "Média de 4 números"
 var
     n1, n2, n3, n4, media: real
 
-Inicio
-    Escreval("Digite seu primeiro número: ")
-    Leia(n1)
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(n1)
 
-    Escreval("Digite seu segundo número: ")  
-    Leia(n2)  
+    escreval("Digite seu segundo número: ")  
+    leia(n2)  
     
     Escreval("Digite seu terceiro número: ")  
-    Leia(n3)  
+    leia(n3)  
     
     Escreval("Digite seu quarto número: ")  
-    Leia(n4)  
+    leia(n4)  
   
     media <- (n1 + n2 + n3 + n4) / 4
   
-    Escreval("A média é: ", media)
+    escreval("A média é: ", media)
 
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 8-) Dividir e mostrar resto (desafio leve).
 
 ```portugol
-Algoritmo "Resto da divisão"
-Var
+algoritmo "Resto da divisão"
+var
     n1, n2, resto: inteiro
 
-Inicio
-   Escreval("Digite seu primeiro número: ")
-   Leia(n1)
-   Escreval("Digite seu segundo número: ")
-   Leia(n2)
+inicio
+   escreval("Digite seu primeiro número: ")
+   leia(n1)
+   escreval("Digite seu segundo número: ")
+   leia(n2)
 
-    resto <- n1 mod n2  
+   resto <- n1 mod n2  
   
-    Escreval("O resto do resultado é: ", resto)
+   escreval("O resto do resultado é: ", resto)
 
-Fimalgoritmo
+fimalgoritmo
 ```
 
+## FASE 3 - SE, SENAO
+<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-green"> 
+
+### 1-) Verificar se número é ímpar.
 
 ```portugol
-Algoritmo "Ímpar ou Par"
-Var 
+algoritmo "Ímpar ou Par"
+var 
     num: Inteiro
     
-Inicio
-    Escreval("Digite um número: ")
-    Leia(num)
+inicio
+    escreval("Digite um número: ")
+    leia(num)
     
-    Se (num mod 2 <> 0) entao
+    se (num mod 2 <> 0) entao
         Escreval("Ímpar")
         
-    Senao     
-        Escreval("Par")
-    Fimse    
+    senao     
+        escreval("Par")
+    fimse    
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 2-) Verificar se o número é par.
 
 ```portugol
-Algoritmo "Ímpar ou Par"
-Var 
+algoritmo "Par ou Ímpar"
+var 
     num: Inteiro
     
-Inicio
-    Escreval("Digite um número: ")
-    Leia(num)
+inicio
+    escreval("Digite um número: ")
+    leia(num)
     
-    Se (num mod 2 = 0) entao
-        Escreval("Par")
+    se (num mod 2 = 0) entao
+        escreval("Par")
         
-    Senao     
-        Escreval("Ímpar")
-    Fimse    
+    senao     
+        escreval("Ímpar")
+    fimse    
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 3-) Pedir 2 números e dizer se ambos são pares.
 
 ```portugol
-Algoritmo "Pares"
-Var 
+algoritmo "Pares"
+var 
     n1, n2: inteiro
     
-Inicio
-    Escreval("Digite seu primeiro número: ")
-    Leia(n1)
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(n1)
     
-    Escreval("Digite seu segundo número: ")
-    Leia(n2)
+    escreval("Digite seu segundo número: ")
+    leia(n2)
   
-    Se(n1 mod 2 = 0) e (n2 mod 2 = 0) entao
+    se (n1 mod 2 = 0) e (n2 mod 2 = 0) entao
        Escreval("Os dois são pares")
     
-    Senao  
-       Escreval("Pelo menos um dos números não é par")    
-    Fimse
+    senao  
+       escreval("Pelo menos um dos números não é par")    
+    fimse
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 4-) Mostrar se número é positivo ou negativo.
 
 ```portugol
-Algoritmo "Positivo ou Negativo"
-Var 
+algoritmo "Positivo ou Negativo"
+var 
     num: inteiro
     
-Inicio
-    Escreval("Digite seu primeiro número: ")
+inicio
+    escreval("Digite seu primeiro número: ")
     Leia(num)
   
-    Se(num > 0) entao
-       Escreval("Número positivo")
+    se (num > 0) entao
+        escreval("Número positivo")
        
-    Senao
+    senao
        
-       Se(num < 0) entao
-          Escreval("Número negativo")
+        Se (num < 0) entao
+            escreval("Número negativo")
     
-       Senao 
-          Escreval("É zero") 
-       Fimse
-    Fimse
+        senao 
+            escreval("É zero") 
+        fimse
+    fimse
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 5-) Verificar se número é maior que 10.
 
 ```portugol
-Algoritmo "Maior que 10"
-Var 
+algoritmo "Maior que 10"
+var 
     num: real
     
-Inicio
-    Escreval("Digite seu primeiro número: ")
-    Leia(num)
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(num)
   
-    Se(num > 10) entao
-       Escreval("Maior que 10")
+    se (num > 10) entao
+       escreval("Maior que 10")
        
-    Senao
-       Escreval("Não é maior que 10") 
-    Fimse
+    senao
+       escreval("Não é maior que 10") 
+    fimse
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+## FASE 4 - ENQUANTO (loop)
+<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-orange"> 
+
+### 1-) Mostrar números de 1 ao 10.
 
 ```portugol
-Algoritmo "1 ao 10"
-Var
+algoritmo "1 ao 10"
+var
     i: inteiro
-Inicio
+inicio
 
     i <- 1
     
-    Enquanto(i <= 10) faca
-        Escreval(i)
+    enquanto (i <= 10) faca
+        escreval(i)
         i <- i + 1
-    Fimenquanto
+    fimenquanto
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 2-) Mostrar números de 10 ao 1.
 
 ```portugol
-Algoritmo "10 ao 1"
-Var
+algoritmo "10 ao 1"
+var
     i: inteiro
-Inicio
+inicio
 
     i <- 10
     
-    Enquanto(i >= 1) faca
-        Escreval(i)
+    enquanto(i >= 1) faca
+        escreval(i)
         i <- i - 1
-    Fimenquanto
+    fimenquanto
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 3-) Somar números até 5.
 
 ```portugol
-Algoritmo "Somar até 5"
-Var
+algoritmo "Somar até 5"
+var
     num, soma, contador: inteiro
-Inicio
+inicio
 
     soma <- 0
     contador <- 1
     
-    Enquanto(contador <= 5) faca
-        Escreval("Informe um número: ")
-        Leia(num)
+    enquanto (contador <= 5) faca
+        escreval("Informe um número: ")
+        leia(num)
         
         soma <- soma + num
         contador <- contador + 1
-    Fimenquanto
+    fimenquanto
     
-    Escreval("A soma dos números é: ", soma)
+    escreval("A soma dos números é: ", soma)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 4-) Pedir número até digitar 0.
 
 ```portugol
-Algoritmo "Soma até 0"
-Var
+algoritmo "Soma até 0"
+var
     soma, num: inteiro
-Inicio
+inicio
 
     soma <- 0
     
-    Escreval("Informe um número (0 para parar): ")
-    Leia(Num)
+    escreval("Informe um número (0 para parar): ")
+    leia(Num)
     
-    Enquanto(num <> 0) faca
+    enquanto (num <> 0) faca
         soma <- soma + num
     
-        Escreval("Informe um número (0 para parar): ")
-        Leia(num)
-    Fimenquanto
+        escreval("Informe um número (0 para parar): ")
+        leia(num)
+    fimenquanto
     
-    Escreval("A soma total é: ", soma)
+    escreval("A soma total é: ", soma)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 5-) Mostrar tabuada simples.
 
 ```portugol
-Algoritmo "Tabuada"
-Var
+algoritmo "Tabuada"
+var
     num, contador: inteiro
-Inicio
+inicio
     
-    Escreval("Informe um número: ")
-    Leia(num)
+    escreval("Informe um número: ")
+    leia(num)
     
     contador <- 1
     
-    Enquanto(contador <= 10) faca
-        Escreval(num, "x", contador, "= ", num * contador)
+    enquanto (contador <= 10) faca
+        escreval(num, "x", contador, "= ", num * contador)
         contador <- contador + 1
-    Fimenquanto
+    fimenquanto
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+## FASE 5 - PARA (for)
+<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-yellow"> 
+
+### 1-) Mostrar de 1 até 10.
 
 ```portugol
-Algoritmo "1 Até 10"
-Var 
+algoritmo "1 Até 10"
+var 
     i: inteiro
-Inicio
+inicio
     
-    Para i de 1 ate 10 faca
-        Escreval(i)
-    Fimpara
+    para i de 1 ate 10 faca
+        escreval(i)
+    fimpara
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 2-) Mostrar só pares até 20.
 
 ```portugol
-Algoritmo "Pares até 20"
-Var 
+algoritmo "Pares até 20"
+var 
     num: inteiro
-Inicio
+inicio
     
-    Para num de 2 ate 20 passo 2 faca 
-        Escreval(num)
-    Fimpara
+    para num de 2 ate 20 passo 2 faca 
+        escreval(num)
+    fimpara
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 3-) Somar números de 1 a 5.
 
 ```portugol
-Algoritmo "1 ao 5"
-Var 
+algoritmo "1 ao 5"
+var 
     num, soma: inteiro
-Inicio
+inicio
     
     soma <- 0
     
-    Para num de 1 ate 5 faca
+    para num de 1 ate 5 faca
         soma <- soma + num
-    Fimpara
+    fimpara
     
-    Escreval("Resultado: ", soma)
+    escreval("Resultado: ", soma)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 4-) Tabuada de um número.
 
 ```portugol
-Algoritmo "Tabuada"
-Var 
+algoritmo "Tabuada"
+var 
     num, i: inteiro
-Inicio
+inicio
 
-    Escreval("Informe um número: ")
-    Leia(num)
+    escreval("Informe um número: ")
+    leia(num)
      
-    Para i de 1 ate 10 faca
+    para i de 1 ate 10 faca
         Escreval(num, "x", i, "=", num * i)
-    Fimpara
+    fimpara
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
+### 5-) Contagem regressiva.
 
 ```portugol
-Algoritmo "Contagem Regressiva"
-Var 
+algoritmo "Contagem Regressiva"
+var 
     i: inteiro
-Inicio
+inicio
      
-    Para i de 10 ate 1 passo -1 faca
-        Escreval(i)
-    Fimpara
+    para i de 10 ate 1 passo -1 faca
+        escreval(i)
+    fimpara
     
-Fimalgoritmo
+fimalgoritmo
 ```
