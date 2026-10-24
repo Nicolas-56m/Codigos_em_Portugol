@@ -7,7 +7,7 @@
 
 ### 1-) Mostrar "Olá mundo".
 
-```c
+```portugol
 algoritmo "Olá mundo"
 
 inicio
@@ -19,7 +19,7 @@ fimalgoritmo
 
 ### 2-) Pedir nome e idade e mostrar na tela.
 
-```c
+```portugol
 algoritmo "Nome e idade"
 var
     nome: caractere
