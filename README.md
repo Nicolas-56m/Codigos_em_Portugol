@@ -295,7 +295,7 @@ fimalgoritmo
 ### 2-) Verificar se o número é par.
 
 ```portugol
-algoritmo "Ímpar ou Par"
+algoritmo "Par ou Ímpar"
 var 
     num: Inteiro
     
@@ -448,7 +448,7 @@ inicio
 fimalgoritmo
 ```
 
-### 4-) Pedir número ate digitar 0.
+### 4-) Pedir número até digitar 0.
 
 ```portugol
 algoritmo "Soma até 0"
