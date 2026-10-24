@@ -1,4 +1,4 @@
-# Códigos-em-Portugol  - Feitos por mim (para estudo)
+# Códigos em Portugol  - Feitos por mim (para estudo)
 
 ### O arquivo está em (.c) só para reconhecer a linguagem de código utilizada!
 
