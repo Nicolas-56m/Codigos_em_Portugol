@@ -1,7 +1,5 @@
 # Códigos-em-Portugol  - Feitos por mim (para estudo)
 
-## (Para reconhecer os códigos tive que reconhecer eles como C)
-
 ## FASE 1 - Escreval, leia e contas (somente)
 <img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-red">
 
